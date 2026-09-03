@@ -1,0 +1,6 @@
+{
+  "name": "Bank of Scotland Spending Analyzer",
+  "description": "Smart spending analyzer and categorization dashboard for Bank of Scotland and Lloyds CSV statement exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,206 @@
+{
+  "version": "1.0.0",
+  "appName": "Bank of Scotland & Lloyds Spending Analyzer",
+  "lastUpdated": "2026-08-24T20:56:00.000Z",
+  "settings": {
+    "currency": "GBP",
+    "currencySymbol": "£",
+    "autoApplyToSameItems": true,
+    "autoCreateRuleOnAssign": true,
+    "savingsCategoryIds": ["savings"]
+  },
+  "customCategories": [
+    {
+      "id": "cat-pet-care",
+      "name": "Pet Care & Vet",
+      "description": "Pet food, vet clinics, pet insurance and toys",
+      "color": "#14B8A6",
+      "badgeBg": "bg-teal-50 text-teal-700 border-teal-200",
+      "badgeText": "text-teal-700",
+      "badgeBorder": "border-teal-200",
+      "iconName": "HeartHandshake",
+      "isCustom": true,
+      "keywords": [
+        "pets at home",
+        "vet",
+        "pdsa",
+        "petmeds",
+        "rover",
+        "zooplus"
+      ]
+    },
+    {
+      "id": "cat-gym-fitness",
+      "name": "Fitness & Gym",
+      "description": "Gym memberships, sports gear, yoga and fitness",
+      "color": "#06B6D4",
+      "badgeBg": "bg-cyan-50 text-cyan-700 border-cyan-200",
+      "badgeText": "text-cyan-700",
+      "badgeBorder": "border-cyan-200",
+      "iconName": "Activity",
+      "isCustom": true,
+      "keywords": [
+        "puregym",
+        "the gym group",
+        "gym",
+        "david lloyd",
+        "fitness",
+        "strava"
+      ]
+    }
+  ],
+  "customRules": [
+    {
+      "id": "rule-sample-1",
+      "keyword": "trading 212",
+      "categoryId": "savings",
+      "createdAt": 1771800000000
+    },
+    {
+      "id": "rule-sample-2",
+      "keyword": "tesco",
+      "categoryId": "food",
+      "createdAt": 1771800000000
+    },
+    {
+      "id": "rule-sample-3",
+      "keyword": "puregym",
+      "categoryId": "cat-gym-fitness",
+      "createdAt": 1771800000000
+    },
+    {
+      "id": "rule-sample-4",
+      "keyword": "pets at home",
+      "categoryId": "cat-pet-care",
+      "createdAt": 1771800000000
+    }
+  ],
+  "categoryKeywords": {
+    "savings": [
+      "trading 212",
+      "aj bell",
+      "savethechange",
+      "vanguard",
+      "isa",
+      "sipp",
+      "hl",
+      "deposit",
+      "fpo transfer",
+      "fidelity",
+      "freetrade",
+      "moneybox",
+      "monzo pot",
+      "plum",
+      "nutmeg",
+      "investengine",
+      "crypto"
+    ],
+    "food": [
+      "asda",
+      "aldi",
+      "tesco",
+      "sainsbury",
+      "morrisons",
+      "lidl",
+      "uber *eats",
+      "ubereats",
+      "deliveroo",
+      "just eat",
+      "justeat",
+      "mcdonalds",
+      "cafe",
+      "restaurant",
+      "co-op",
+      "waitrose",
+      "marks & spencer",
+      "m&s",
+      "greggs",
+      "costa",
+      "starbucks",
+      "pret",
+      "nandos",
+      "kfc",
+      "subway"
+    ],
+    "housing": [
+      "rent",
+      "mortgage",
+      "council tax",
+      "british gas",
+      "octopus energy",
+      "edf",
+      "scottish power",
+      "eon",
+      "water",
+      "thames water",
+      "united utilities",
+      "severn trent",
+      "broadband",
+      "virgin media",
+      "bt broadband",
+      "sky broadband"
+    ],
+    "transport": [
+      "shell",
+      "bp",
+      "esso",
+      "texaco",
+      "trainline",
+      "lner",
+      "tfl",
+      "transport for london",
+      "uber",
+      "bolt",
+      "scotrail",
+      "national rail",
+      "avanti",
+      "bus",
+      "stagecoach",
+      "first bus",
+      "parking",
+      "dvla"
+    ],
+    "leisure": [
+      "spotify",
+      "netflix",
+      "cinema",
+      "pub",
+      "bar",
+      "ebay",
+      "amazon",
+      "travel",
+      "steam",
+      "flight",
+      "disney",
+      "apple.com/bill",
+      "playstation",
+      "nintendo",
+      "xbox",
+      "odeon",
+      "vue",
+      "cineworld",
+      "booking.com",
+      "airbnb",
+      "ryanair",
+      "easyjet",
+      "theatre"
+    ],
+    "income": [
+      "salary",
+      "payroll",
+      "wages",
+      "dividend",
+      "interest",
+      "refund",
+      "dwp",
+      "hmrc",
+      "cashback"
+    ]
+  },
+  "overrides": {
+    "tesco": "food",
+    "trading 212": "savings",
+    "puregym": "cat-gym-fitness",
+    "pets at home": "cat-pet-care"
+  }
+}
